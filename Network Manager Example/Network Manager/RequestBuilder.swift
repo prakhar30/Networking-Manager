@@ -15,6 +15,7 @@ public protocol RequestBuilder {
     var headers: [String: String] { get }
     
     func toURLRequest() -> URLRequest
+    func encodeRequestBody() -> Data?
 }
 
 public extension RequestBuilder {
@@ -28,5 +29,9 @@ public extension RequestBuilder {
         request.allHTTPHeaderFields = headers
         request.httpMethod = method.rawValue.uppercased()
         return request
+    }
+    
+    func encodeRequestBody() -> Data? {
+        return nil
     }
 }

@@ -23,6 +23,15 @@ public struct Request {
         let builder = BasicRequestBuilder(method: method, baseURL: baseURL, path: path, params: params)
         return Request(builder: builder, completion: completion)
     }
+    
+    public static func post<Body: Model>(method: HTTPMethod = .post,
+                                         baseURL: URL, path: String,
+                                         params: [URLQueryItem]? = nil,
+                                         body: Body?,
+                                         completion: @escaping (Result<Data, APIError>) -> Void) -> Request {
+        let builder = PostRequestBuilder(method: method, baseURL: baseURL, path: path, params: params, body: body)
+        return Request(builder: builder, completion: completion)
+    }
 }
 
 extension Request {
