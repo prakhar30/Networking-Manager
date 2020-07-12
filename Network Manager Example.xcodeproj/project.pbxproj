@@ -13,6 +13,9 @@
 		C03BE4F124BB1618003F0B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4F024BB1618003F0B76 /* Assets.xcassets */; };
 		C03BE4F424BB1618003F0B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4F224BB1618003F0B76 /* LaunchScreen.storyboard */; };
 		C03BE4FF24BB1618003F0B76 /* Network_Manager_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4FE24BB1618003F0B76 /* Network_Manager_ExampleTests.swift */; };
+		C0EB3A2A24BB1BAC006AF014 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB3A2924BB1BAC006AF014 /* APIClient.swift */; };
+		C0EB3A2C24BB1C3A006AF014 /* MovieDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB3A2B24BB1C3A006AF014 /* MovieDB.swift */; };
+		C0EB3A2E24BB1D61006AF014 /* MovieDBAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB3A2D24BB1D61006AF014 /* MovieDBAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		C03BE4FA24BB1618003F0B76 /* Network Manager ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network Manager ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03BE4FE24BB1618003F0B76 /* Network_Manager_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Manager_ExampleTests.swift; sourceTree = "<group>"; };
 		C03BE50024BB1618003F0B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB3A2924BB1BAC006AF014 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C0EB3A2B24BB1C3A006AF014 /* MovieDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB.swift; sourceTree = "<group>"; };
+		C0EB3A2D24BB1D61006AF014 /* MovieDBAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		C03BE4E624BB1616003F0B76 /* Network Manager Example */ = {
 			isa = PBXGroup;
 			children = (
+				C0EB3A2824BB1B98006AF014 /* Network Manager */,
 				C03BE4E724BB1616003F0B76 /* AppDelegate.swift */,
 				C03BE4EB24BB1616003F0B76 /* ViewController.swift */,
 				C03BE4ED24BB1616003F0B76 /* Main.storyboard */,
@@ -94,6 +101,16 @@
 				C03BE50024BB1618003F0B76 /* Info.plist */,
 			);
 			path = "Network Manager ExampleTests";
+			sourceTree = "<group>";
+		};
+		C0EB3A2824BB1B98006AF014 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB3A2924BB1BAC006AF014 /* APIClient.swift */,
+				C0EB3A2B24BB1C3A006AF014 /* MovieDB.swift */,
+				C0EB3A2D24BB1D61006AF014 /* MovieDBAPIKey.swift */,
+			);
+			path = "Network Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +216,9 @@
 			files = (
 				C03BE4EC24BB1616003F0B76 /* ViewController.swift in Sources */,
 				C03BE4E824BB1616003F0B76 /* AppDelegate.swift in Sources */,
+				C0EB3A2C24BB1C3A006AF014 /* MovieDB.swift in Sources */,
+				C0EB3A2A24BB1BAC006AF014 /* APIClient.swift in Sources */,
+				C0EB3A2E24BB1D61006AF014 /* MovieDBAPIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
