@@ -32,4 +32,11 @@ extension Request {
             result.decoding(PagedResults<Movie>.self, completion: completion)
         }
     }
+    
+    static func configuration(completion: @escaping (Result<MovieDBConfiguration, APIError>) -> Void) -> Request {
+        
+        Request.basic(baseURL: MovieDB.baseURL, path: "configuration") { (result) in
+            result.decoding(MovieDBConfiguration.self, completion: completion)
+        }
+    }
 }
