@@ -136,10 +136,10 @@
 				C0362D4924BB230300E0247D /* HTTPMethod.swift */,
 				C0362D4B24BB235C00E0247D /* RequestBuilder.swift */,
 				C0362D4D24BB254600E0247D /* BasicRequestBuilder.swift */,
+				C0E5CAE424BB6BE700282C2B /* PostRequestBuilder.swift */,
 				C0362D4F24BB25CB00E0247D /* Request.swift */,
 				C0362D5124BB267800E0247D /* APIError.swift */,
 				C0E5CAE024BB5F3200282C2B /* Result.swift */,
-				C0E5CAE424BB6BE700282C2B /* PostRequestBuilder.swift */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";
