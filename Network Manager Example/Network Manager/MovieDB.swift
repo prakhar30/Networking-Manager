@@ -13,6 +13,7 @@ public struct MovieDB {
     
     public static var api: APICLient = {
         let config = URLSessionConfiguration.default
+        config.httpAdditionalHeaders = ["Authorization": "Bearer \(kAPIKEY)"]
         return APICLient(config: config)
     }()
 }
