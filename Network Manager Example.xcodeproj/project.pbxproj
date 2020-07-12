@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C0362D4824BB220D00E0247D /* PagedResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D4724BB220D00E0247D /* PagedResults.swift */; };
+		C0362D4A24BB230300E0247D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D4924BB230300E0247D /* HTTPMethod.swift */; };
+		C0362D4C24BB235C00E0247D /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D4B24BB235C00E0247D /* RequestBuilder.swift */; };
+		C0362D4E24BB254600E0247D /* BasicRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D4D24BB254600E0247D /* BasicRequestBuilder.swift */; };
+		C0362D5024BB25CB00E0247D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D4F24BB25CB00E0247D /* Request.swift */; };
+		C0362D5224BB267800E0247D /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0362D5124BB267800E0247D /* APIError.swift */; };
 		C03BE4E824BB1616003F0B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4E724BB1616003F0B76 /* AppDelegate.swift */; };
 		C03BE4EC24BB1616003F0B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4EB24BB1616003F0B76 /* ViewController.swift */; };
 		C03BE4EF24BB1616003F0B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4ED24BB1616003F0B76 /* Main.storyboard */; };
@@ -33,6 +38,11 @@
 
 /* Begin PBXFileReference section */
 		C0362D4724BB220D00E0247D /* PagedResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedResults.swift; sourceTree = "<group>"; };
+		C0362D4924BB230300E0247D /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C0362D4B24BB235C00E0247D /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		C0362D4D24BB254600E0247D /* BasicRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRequestBuilder.swift; sourceTree = "<group>"; };
+		C0362D4F24BB25CB00E0247D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C0362D5124BB267800E0247D /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		C03BE4E424BB1616003F0B76 /* Network Manager Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Manager Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03BE4E724BB1616003F0B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C03BE4EB24BB1616003F0B76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +127,11 @@
 				C0EB3A2B24BB1C3A006AF014 /* MovieDB.swift */,
 				C0EB3A2D24BB1D61006AF014 /* MovieDBAPIKey.swift */,
 				C0EB3A3224BB1FCE006AF014 /* Model.swift */,
+				C0362D4924BB230300E0247D /* HTTPMethod.swift */,
+				C0362D4B24BB235C00E0247D /* RequestBuilder.swift */,
+				C0362D4D24BB254600E0247D /* BasicRequestBuilder.swift */,
+				C0362D4F24BB25CB00E0247D /* Request.swift */,
+				C0362D5124BB267800E0247D /* APIError.swift */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";
@@ -232,13 +247,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0362D4824BB220D00E0247D /* PagedResults.swift in Sources */,
+				C0362D5024BB25CB00E0247D /* Request.swift in Sources */,
 				C0EB3A3324BB1FCE006AF014 /* Model.swift in Sources */,
 				C03BE4EC24BB1616003F0B76 /* ViewController.swift in Sources */,
 				C03BE4E824BB1616003F0B76 /* AppDelegate.swift in Sources */,
 				C0EB3A3024BB1EF8006AF014 /* Movie.swift in Sources */,
+				C0362D4C24BB235C00E0247D /* RequestBuilder.swift in Sources */,
+				C0362D4A24BB230300E0247D /* HTTPMethod.swift in Sources */,
 				C0EB3A2C24BB1C3A006AF014 /* MovieDB.swift in Sources */,
 				C0EB3A2A24BB1BAC006AF014 /* APIClient.swift in Sources */,
 				C0EB3A2E24BB1D61006AF014 /* MovieDBAPIKey.swift in Sources */,
+				C0362D4E24BB254600E0247D /* BasicRequestBuilder.swift in Sources */,
+				C0362D5224BB267800E0247D /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
