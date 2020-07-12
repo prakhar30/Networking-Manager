@@ -9,7 +9,7 @@
 import Foundation
 
 public struct MovieDB {
-    public static let baseURL = URL(string: "https://api.themoviedb.org/3/")
+    public static let baseURL = URL(string: "https://api.themoviedb.org/3/")!
     
     public static var api: APICLient = {
         let config = URLSessionConfiguration.default

@@ -24,3 +24,12 @@ public struct Request {
         return Request(builder: builder, completion: completion)
     }
 }
+
+extension Request {
+    static func popularMovies(completion: @escaping (Result<PagedResults<Movie>, APIError>) -> Void) -> Request {
+        
+        Request.basic(baseURL: MovieDB.baseURL, path: "discover/movie", params: [URLQueryItem(name: "sort_by", value: "popularity.desc")]) { (result) in
+            result.decoding(PagedResults<Movie>.self, completion: completion)
+        }
+    }
+}

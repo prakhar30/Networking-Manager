@@ -12,5 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let api = MovieDB.api
+        api.send(request: .popularMovies(completion: { (result) in
+            switch result {
+            case .success(let page): print(page)
+            case .failure(let error): print(error)
+            }
+        }))
     }
 }
