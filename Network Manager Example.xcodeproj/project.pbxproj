@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03BE4E824BB1616003F0B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4E724BB1616003F0B76 /* AppDelegate.swift */; };
+		C03BE4EC24BB1616003F0B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4EB24BB1616003F0B76 /* ViewController.swift */; };
+		C03BE4EF24BB1616003F0B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4ED24BB1616003F0B76 /* Main.storyboard */; };
+		C03BE4F124BB1618003F0B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4F024BB1618003F0B76 /* Assets.xcassets */; };
+		C03BE4F424BB1618003F0B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03BE4F224BB1618003F0B76 /* LaunchScreen.storyboard */; };
+		C03BE4FF24BB1618003F0B76 /* Network_Manager_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BE4FE24BB1618003F0B76 /* Network_Manager_ExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C03BE4FB24BB1618003F0B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C03BE4DC24BB1616003F0B76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C03BE4E324BB1616003F0B76;
+			remoteInfo = "Network Manager Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C03BE4E424BB1616003F0B76 /* Network Manager Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Manager Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03BE4E724BB1616003F0B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C03BE4EB24BB1616003F0B76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03BE4EE24BB1616003F0B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C03BE4F024BB1618003F0B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03BE4F324BB1618003F0B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C03BE4F524BB1618003F0B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03BE4FA24BB1618003F0B76 /* Network Manager ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network Manager ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03BE4FE24BB1618003F0B76 /* Network_Manager_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Manager_ExampleTests.swift; sourceTree = "<group>"; };
+		C03BE50024BB1618003F0B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03BE4E124BB1616003F0B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03BE4F724BB1618003F0B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03BE4DB24BB1616003F0B76 = {
+			isa = PBXGroup;
+			children = (
+				C03BE4E624BB1616003F0B76 /* Network Manager Example */,
+				C03BE4FD24BB1618003F0B76 /* Network Manager ExampleTests */,
+				C03BE4E524BB1616003F0B76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03BE4E524BB1616003F0B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03BE4E424BB1616003F0B76 /* Network Manager Example.app */,
+				C03BE4FA24BB1618003F0B76 /* Network Manager ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03BE4E624BB1616003F0B76 /* Network Manager Example */ = {
+			isa = PBXGroup;
+			children = (
+				C03BE4E724BB1616003F0B76 /* AppDelegate.swift */,
+				C03BE4EB24BB1616003F0B76 /* ViewController.swift */,
+				C03BE4ED24BB1616003F0B76 /* Main.storyboard */,
+				C03BE4F024BB1618003F0B76 /* Assets.xcassets */,
+				C03BE4F224BB1618003F0B76 /* LaunchScreen.storyboard */,
+				C03BE4F524BB1618003F0B76 /* Info.plist */,
+			);
+			path = "Network Manager Example";
+			sourceTree = "<group>";
+		};
+		C03BE4FD24BB1618003F0B76 /* Network Manager ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C03BE4FE24BB1618003F0B76 /* Network_Manager_ExampleTests.swift */,
+				C03BE50024BB1618003F0B76 /* Info.plist */,
+			);
+			path = "Network Manager ExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03BE4E324BB1616003F0B76 /* Network Manager Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03BE50324BB1618003F0B76 /* Build configuration list for PBXNativeTarget "Network Manager Example" */;
+			buildPhases = (
+				C03BE4E024BB1616003F0B76 /* Sources */,
+				C03BE4E124BB1616003F0B76 /* Frameworks */,
+				C03BE4E224BB1616003F0B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Network Manager Example";
+			productName = "Network Manager Example";
+			productReference = C03BE4E424BB1616003F0B76 /* Network Manager Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C03BE4F924BB1618003F0B76 /* Network Manager ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03BE50624BB1618003F0B76 /* Build configuration list for PBXNativeTarget "Network Manager ExampleTests" */;
+			buildPhases = (
+				C03BE4F624BB1618003F0B76 /* Sources */,
+				C03BE4F724BB1618003F0B76 /* Frameworks */,
+				C03BE4F824BB1618003F0B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03BE4FC24BB1618003F0B76 /* PBXTargetDependency */,
+			);
+			name = "Network Manager ExampleTests";
+			productName = "Network Manager ExampleTests";
+			productReference = C03BE4FA24BB1618003F0B76 /* Network Manager ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03BE4DC24BB1616003F0B76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					C03BE4E324BB1616003F0B76 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C03BE4F924BB1618003F0B76 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C03BE4E324BB1616003F0B76;
+					};
+				};
+			};
+			buildConfigurationList = C03BE4DF24BB1616003F0B76 /* Build configuration list for PBXProject "Network Manager Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03BE4DB24BB1616003F0B76;
+			productRefGroup = C03BE4E524BB1616003F0B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03BE4E324BB1616003F0B76 /* Network Manager Example */,
+				C03BE4F924BB1618003F0B76 /* Network Manager ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03BE4E224BB1616003F0B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03BE4F424BB1618003F0B76 /* LaunchScreen.storyboard in Resources */,
+				C03BE4F124BB1618003F0B76 /* Assets.xcassets in Resources */,
+				C03BE4EF24BB1616003F0B76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03BE4F824BB1618003F0B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03BE4E024BB1616003F0B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03BE4EC24BB1616003F0B76 /* ViewController.swift in Sources */,
+				C03BE4E824BB1616003F0B76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03BE4F624BB1618003F0B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03BE4FF24BB1618003F0B76 /* Network_Manager_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C03BE4FC24BB1618003F0B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C03BE4E324BB1616003F0B76 /* Network Manager Example */;
+			targetProxy = C03BE4FB24BB1618003F0B76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C03BE4ED24BB1616003F0B76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03BE4EE24BB1616003F0B76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C03BE4F224BB1618003F0B76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03BE4F324BB1618003F0B76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03BE50124BB1618003F0B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03BE50224BB1618003F0B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03BE50424BB1618003F0B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGDG4B2MG;
+				INFOPLIST_FILE = "Network Manager Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakhar.Network-Manager-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C03BE50524BB1618003F0B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGDG4B2MG;
+				INFOPLIST_FILE = "Network Manager Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakhar.Network-Manager-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C03BE50724BB1618003F0B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGDG4B2MG;
+				INFOPLIST_FILE = "Network Manager ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakhar.Network-Manager-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Manager Example.app/Network Manager Example";
+			};
+			name = Debug;
+		};
+		C03BE50824BB1618003F0B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGDG4B2MG;
+				INFOPLIST_FILE = "Network Manager ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prakhar.Network-Manager-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Manager Example.app/Network Manager Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03BE4DF24BB1616003F0B76 /* Build configuration list for PBXProject "Network Manager Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03BE50124BB1618003F0B76 /* Debug */,
+				C03BE50224BB1618003F0B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03BE50324BB1618003F0B76 /* Build configuration list for PBXNativeTarget "Network Manager Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03BE50424BB1618003F0B76 /* Debug */,
+				C03BE50524BB1618003F0B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03BE50624BB1618003F0B76 /* Build configuration list for PBXNativeTarget "Network Manager ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03BE50724BB1618003F0B76 /* Debug */,
+				C03BE50824BB1618003F0B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03BE4DC24BB1616003F0B76 /* Project object */;
+}
